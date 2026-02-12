@@ -6,14 +6,13 @@ Projeto de um site institucional para um PetShop fictício, desenvolvido com foc
 
 ## 🚀 Funcionalidades
 
-- Layout totalmente responsivo  
-- Menu mobile interativo  
-- Modais dinâmicos na seção **“Conheça-nos melhor”**  
-- Carrossel infinito de depoimentos com Swiper.js  
-- Animações suaves ao scroll com ScrollReveal.js  
-- Cards de produtos com botão de contato via WhatsApp  
-- Efeitos de hover e box-shadow nos cards  
-- Integração visual com ícones (RemixIcon)  
+- Layout totalmente responsivo
+- Menu mobile interativo
+- Modais na seção **“Conheça-nos melhor”**
+- Carrossel infinito de depoimentos com Swiper.js
+- Animações suaves ao scroll com ScrollReveal.js
+- Cards de produtos com botão de contato via WhatsApp
+- Integração visual com ícones (RemixIcon)
 
 ---
 
@@ -27,4 +26,5 @@ Projeto de um site institucional para um PetShop fictício, desenvolvido com foc
 - **RemixIcon**
 
 ---
+
 https://petshop-chi-ecru.vercel.app/
