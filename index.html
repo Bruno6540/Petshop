@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>PetShop</title>
+</head>
+
+<body>
+
+  <!--Serviços-->
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#">Pet Shop</a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#store">Loja</a></li>
+      <li><a href="#service">Serviços</a></li>
+      <li><a href="#contact">Contatos</a></li>
+    </ul>
+  </nav>
+
+  <!--Header-->
+  <header id="home">
+    <div class="section__container header__container">
+      <div class="header__content">
+        <h4>Bem-vindo</h4>
+        <h1>Pet<br /><span>Shop</span></h1>
+        <h2>Nós também adoramos Pets, assim como você :)</h2>
+        <p>
+          Desde consultas de rotina até tratamentos especializados, estamos aqui para garantir que seus animais de
+          estimação tenham vidas felizes e saudáveis.
+        </p>
+        <div class="header__btn">
+          <button>
+            Comece aqui!
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="header__image">
+        <img src="assets/header-bg.png" alt="header-bg" class="header__image-bg" />
+        <img src="assets/Filhote.png" alt="header" />
+      </div>
+    </div>
+    <div class="header__bottom"></div>
+  </header>
+
+  <!--Conheça-nos melhor-->
+  <section class="section__container intro__container">
+    <p class="section__subheader">Introdução</p>
+    <h2 class="section__header">Conheça-nos melhor</h2>
+    <div class="intro__grid">
+      <div class="intro__card">
+        <div class="intro__image">
+          <img src="assets/intro-1.png" alt="intro" />
+        </div>
+        <h4>Especialistas em Pets</h4>
+        <p>
+          Conheça nossa equipe de veterinários qualificados e dedicados ao bem-estar do seu Pet.
+        </p>
+        <a href="#" class="open-modal" data-modal="especialistas">Ver mais</a>
+      </div>
+      <div class="intro__card">
+        <div class="intro__image">
+          <img src="assets/intro-2.png" alt="intro" />
+        </div>
+        <h4>Serviços Veterinários</h4>
+        <p>
+          Oferecemos uma ampla gama de serviços veterinários para manter seus Pets saudáveis e felizes.
+        </p>
+        <a href="#" class="open-modal" data-modal="servicos">Ver mais</a>
+      </div>
+      <div class="intro__card">
+        <div class="intro__image">
+          <img src="assets/intro-3.png" alt="intro" />
+        </div>
+        <h4>Contate-nos</h4>
+        <p>
+          Entre em contato conosco para qualquer dúvida ou para agendar uma consulta para o cuidado do seu Pet.
+        </p>
+        <a href="#" class="open-modal" data-modal="contato">Ver mais</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Sobre-->
+  <section class="section__container about__container" id="about">
+    <p class="section__subheader">Sobre nós</p>
+    <h2 class="section__header">O que podemos fazer por você</h2>
+    <div class="about__row">
+      <div class="about__image">
+        <img src="assets/about-1.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <span><img src="assets/about-1-icon.png" alt="about-icon" /></span>
+        <h4>Deixe-nos ajudar você com a saúde do seu Pet.</h4>
+        <p>
+          Nossos veterinários especializados estão aqui para fornecer cuidados e orientações abrangentes para garantir
+          que seu Pet permaneça com saúde perfeita.
+        </p>
+      </div>
+    </div>
+    <div class="about__row">
+      <div class="about__image">
+        <img src="assets/about-2.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <span><img src="assets/about-2-icon.png" alt="about-icon" /></span>
+        <h4>Uma equipe atenciosa cuidará do seu Pet.</h4>
+        <p>
+          Seu animal de estimação estará em boas mãos com nossa equipe atenciosa e bem treinada, que trata cada animal
+          como se fosse da família.
+        </p>
+      </div>
+    </div>
+    <div class="about__row">
+      <div class="about__image">
+        <img src="assets/about-3.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <span><img src="assets/about-3-icon.png" alt="about-icon" /></span>
+        <h4>Deixe-nos cuidar da higiene do seu precioso e amado Pet.</h4>
+        <p>
+          Do banho ao penteado, oferecemos serviços profissionais de higiene para que seu Pet fique com
+          a melhor aparência e se sinta bem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--Produtos-->
+  <section class="product" id="store">
+    <div class="section__container product__container">
+      <p class="section__subheader">Produtos</p>
+      <h2 class="section__header">Produtos para Pets em destaque</h2>
+      <div class="product__grid">
+        <div class="product__card">
+          <img src="assets/product-1.jpg" alt="product" />
+          <h4>Saco para lixo de cachorro</h4>
+          <p>
+            Sacos de lixo práticos e ecológicos para facilitar o descarte de dejetos de Pets.
+          </p>
+          <div class="product__footer">
+            <h3>R$29.00</h3>
+            <a href="https://wa.me/5511123456789" target="_blank" class="whatsapp-link">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="assets/product-2.jpg" alt="product" />
+          <h4>Acessórios para Pets</h4>
+          <p>
+            Descubra a nossa gama de acessórios elegantes e funcionais para os seus amigos de quatro patas.
+          </p>
+          <div class="product__footer">
+            <h3>R$49.00</h3>
+            <a href="https://wa.me/5511123456789" target="_blank" class="whatsapp-link">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+        </div>
+        <div class="product__card">
+          <img src="assets/product-3.jpg" alt="product" />
+          <h4>Ração para cães</h4>
+          <p>
+            Alimento nutritivo e delicioso para manter seu cão saudável e feliz.
+          </p>
+          <div class="product__footer">
+            <h3>R$79.00</h3>
+            <a href="https://wa.me/5511123456789" target="_blank" class="whatsapp-link">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Serviços-->
+  <section class="section__container service__container" id="service">
+    <p class="section__subheader">Serviços</p>
+    <h2 class="section__header">O que podemos fazer por você</h2>
+    <div class="service__flex">
+      <div class="service__card">
+        <div>
+          <img src="assets/service-1.png" alt="service" />
+        </div>
+        <p>Atendimento de emergência</p>
+      </div>
+      <div class="service__card">
+        <div>
+          <img src="assets/service-2.png" alt="service" />
+        </div>
+        <p>Serviços de Vacinação</p>
+      </div>
+      <div class="service__card">
+        <div>
+          <img src="assets/service-3.png" alt="service" />
+        </div>
+        <p>Aconselhamento nutricional</p>
+      </div>
+      <div class="service__card">
+        <div>
+          <img src="assets/service-4.png" alt="service" />
+        </div>
+        <p>Consulta Comportamental</p>
+      </div>
+      <div class="service__card">
+        <div>
+          <img src="assets/service-5.png" alt="service" />
+        </div>
+        <p>Serviços de busca e leva</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Depoimentos-->
+  <section class="client">
+    <div class="section__container client__container">
+      <p class="section__subheader">Depoimentos</p>
+      <h2 class="section__header">O que as pessoas dizem sobre nós</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-1.jpg" alt="client" />
+                <div>
+                  <h4>Sarah</h4>
+                  <h5>Designer Grafico</h5>
+                </div>
+              </div>
+              <p>
+                O cuidado que meu cachorro recebeu na Pet Doctor foi excepcional.
+                Os veterinários foram atenciosos e se preocuparam com o bem-estar do meu cachorro.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-2.jpg" alt="client" />
+                <div>
+                  <h4>Michel</h4>
+                  <h5>Engenheiro de Software</h5>
+                </div>
+              </div>
+              <p>
+                O cuidado que meu cachorro recebeu na Pet Doctor foi excepcional.
+                Os veterinários foram atenciosos e se preocuparam com o bem-estar do meu cachorro.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-3.jpg" alt="client" />
+                <div>
+                  <h4>Emily</h4>
+                  <h5>Professora</h5>
+                </div>
+              </div>
+              <p>
+                O cuidado que meu cachorro recebeu na Pet Doctor foi excepcional.
+                Os veterinários foram atenciosos e se preocuparam com o bem-estar do meu cachorro.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-4.jpg" alt="client" />
+                <div>
+                  <h4>Jonas</h4>
+                  <h5>Marketing</h5>
+                </div>
+              </div>
+              <p>
+                O cuidado que meu cachorro recebeu na Pet Doctor foi excepcional.
+                Os veterinários foram atenciosos e se preocuparam com o bem-estar do meu cachorro.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-5.jpg" alt="client" />
+                <div>
+                  <h4>Davi</h4>
+                  <h5>Arquiteto</h5>
+                </div>
+              </div>
+              <p>
+                O cuidado que meu cachorro recebeu na Pet Doctor foi excepcional.
+                Os veterinários foram atenciosos e se preocuparam com o bem-estar do meu cachorro.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Instagram-->
+  <section class="section__container instagram__container">
+    <p>Nos Siga</p>
+    <h2 class="section__header">Instagram</h2>
+    <div class="instagram__grid">
+      <img src="assets/instagram-1.jpg" alt="instagram" />
+      <img src="assets/instagram-2.jpg" alt="instagram" />
+      <img src="assets/instagram-3.jpg" alt="instagram" />
+      <img src="assets/instagram-4.jpg" alt="instagram" />
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#">Pet Shop</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Empresa</h4>
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre nós</a></li>
+          <li><a href="#service">Serviços</a></li>
+          <li><a href="#store">Loja</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Endereço</h4>
+        <ul class="footer__links">
+          <li><a href="#">São Paulo, Brasil</a></li>
+        </ul>
+        <br />
+        <h4>Dúvidas</h4>
+        <ul class="footer__links">
+          <li><a href="#">+11 123456789</a></li>
+          <li><a href="#">info@website.com</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Follow Us</h4>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-pinterest-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-tiktok-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 Bruno Fernandes
+    </div>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal__content">
+      <span class="modal__close">&times;</span>
+
+      <h2 id="modal-title"></h2>
+      <p id="modal-text"></p>
+
+      <ul id="modal-list"></ul>
+
+      <button class="modal__btn">Fechar</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
